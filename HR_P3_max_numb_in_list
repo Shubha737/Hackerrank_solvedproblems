@@ -1,0 +1,17 @@
+# Day 36/100
+# HR_problems
+# https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+
+
+n = int(input('Enter the value of n :'))
+list =[]
+for i in range (n):
+    
+    listings = int(input('Enter the elements :'))
+    list.append(listings)
+    
+print(list)
+
+s_listings = sorted (list,reverse = True)
+print(s_listings)
+print(s_listings[1])
