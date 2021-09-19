@@ -1,0 +1,9 @@
+# Day 36/100
+# HackerRank_problems_
+# 19-09-2021
+# https://www.hackerrank.com/challenges/whats-your-name/problem
+
+def full_name(firstname,lastname):
+    return f'Hello {firstname} {lastname} ! You just delved into python.'
+
+print(full_name('Puja', 'Gupta'))
