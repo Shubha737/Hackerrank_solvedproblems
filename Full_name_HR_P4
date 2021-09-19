@@ -1,0 +1,10 @@
+# Day 36/100
+# HackerRank_problems_
+# 19-09-2021
+# https://www.hackerrank.com/challenges/whats-your-name/problem
+
+firstname = str(input('Enter your name:'))
+lastname = str(input('Enter your title:'))
+#message = 'Hello {} {} ! You just delved into python.'.format(firstname,lastname)
+message = f'Hello {firstname} {lastname} ! You just delved into python.'
+print(message)
