@@ -1,0 +1,50 @@
+#hackerrank
+#https://www.hackerrank.com/challenges/string-validators/problem
+
+if __name__ == '__main__':
+    s = raw_input()
+    count_1 =0
+    count_2 =0
+    count_3 =0 
+    count_4 =0 
+    count_5 =0 
+    for letter in s:
+        output_1 =(letter.isalnum())
+        if (output_1):
+            count_1 = count_1+1
+    if (count_1>0):
+        print('True')
+    else:
+        print('False')
+    for letter in s:
+        output_2 =(letter.isalpha())
+        if (output_2):
+            count_2 = count_2+1
+    if (count_2>0):
+        print('True')
+    else:
+        print('False')
+    for letter in s:
+        output_3 =(letter.isdigit())
+        if (output_3):
+            count_3 = count_3+1
+    if (count_3>0):
+        print('True')
+    else:
+        print('False')
+    for letter in s:
+        output_4 =(letter.islower())
+        if (output_4):
+            count_4 = count_4+1
+    if (count_4>0):
+        print('True')
+    else:
+        print('False')
+    for letter in s:
+        output_5 =(letter.isupper())
+        if (output_5):
+            count_5 = count_5+1
+    if (count_5>0):
+        print('True')
+    else:
+        print('False')
